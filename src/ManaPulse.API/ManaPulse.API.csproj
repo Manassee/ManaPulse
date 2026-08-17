@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Identity\Core.Identity.csproj" />
+    <ProjectReference Include="..\Core.Finance\Core.Finance.csproj" />
+    <ProjectReference Include="..\Hotel.Booking\Hotel.Booking.csproj" />
+    <ProjectReference Include="..\Core.Finance.Compliance.CD\Core.Finance.Compliance.CD.csproj" />
+    <ProjectReference Include="..\Core.Finance.Compliance.DE\Core.Finance.Compliance.DE.csproj" />
+  </ItemGroup>
+
+</Project>

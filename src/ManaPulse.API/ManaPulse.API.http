@@ -1,0 +1,6 @@
+@ManaPulse.API_HostAddress = http://localhost:5172
+
+GET {{ManaPulse.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
